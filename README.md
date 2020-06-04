@@ -3,6 +3,13 @@
 
 Stencil's Cornerstone theme is the building block for BigCommerce theme developers to get started quickly developing premium quality themes on the BigCommerce platform.
 
+## Author notes
+
+Hello! Thanks for checking out my project. To find the custom CSS/JS files, please see the following:
+
+/assets/js/theme/custom.js
+/assets/scss/custom.scss
+
 ### Stencil Utils
 [Stencil-utils](https://github.com/bigcommerce/stencil-utils) is our supporting library for our events and remote interactions.
 
