@@ -7,8 +7,8 @@ Stencil's Cornerstone theme is the building block for BigCommerce theme develope
 
 Hello! Thanks for checking out my project. To find the custom CSS/JS files, please see the following:
 
-/assets/js/theme/custom.js
-/assets/scss/custom.scss
+* /assets/js/theme/custom.js
+* /assets/scss/custom.scss
 
 ### Stencil Utils
 [Stencil-utils](https://github.com/bigcommerce/stencil-utils) is our supporting library for our events and remote interactions.
