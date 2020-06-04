@@ -1,0 +1,39 @@
+.page-sidebar {
+	.categoryList {
+		margin-left: 0em;
+
+		li {
+			list-style-type: none;
+
+			a {
+				text-decoration: none;
+				font-size: 17px;
+				line-height: 35px;
+			}
+		}
+	}
+}
+
+.cart-success {
+	.modal-content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 40px;
+
+		button {
+			background: #5a5a5a;
+			color: #ffffff;
+			padding: 10px 30px;
+		}
+	}
+}
+
+.add-class-btn {
+	text-align: center;
+	display: block;
+	margin: 20px auto 70px auto;
+	background: #5a5a5a;
+	color: #ffffff;
+	padding: 10px 30px;
+}

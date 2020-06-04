@@ -20,7 +20,7 @@
             window.lazySizesConfig = window.lazySizesConfig || {};
             window.lazySizesConfig.loadMode = 1;
         </script>
-        <script async src="{{cdn 'assets/dist/theme-bundle.head_async.js'}}"></script>
+        <script async src="assets/dist/theme-bundle.head_async.js"></script>
 
         {{ getFontsCollection }}
         {{{stylesheet '/assets/css/theme.css'}}}
@@ -50,7 +50,18 @@
             {{!-- Exported in app.js --}}
             window.stencilBootstrap("{{page_type}}", {{jsContext}}).load();
         </script>
-
+        <div id="cart-msg" class="modal modal--small cart-success" data-reveal>
+            <a href="#" class="modal-close" aria-label="{{lang 'common.close'}}" role="button">
+                <span aria-hidden="true">&#215;</span>
+            </a>
+            <div class="modal-content">
+                <center>
+                    <h3>You have added three items to your cart!</h3>
+                    <a href="/cart.php"><button>Visit Cart</button></a>
+                </center>
+            </div>
+            <div class="loadingOverlay"></div>
+        </div>
         {{{footer.scripts}}}
     </body>
 </html>
